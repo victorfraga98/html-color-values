@@ -1,0 +1,84 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: hsl(203, 92%, 97%);
+}
+
+h1 {
+  color: lightskyblue;
+  text-align: center;
+}
+
+table {
+  border: 2px solid hsl(203, 92%, 50%);
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+thead {
+  background-color: hsl(203, 92%, 80%);
+}
+
+th {
+  font-weight: 500;
+}
+
+td {
+  border-top: 1px solid hsl(203, 92%, 50%);
+}
+
+thead tr th:first-child,
+tbody tr td:first-child {
+  min-width: 200px;
+  word-break: break-all;
+}
+
+code {
+  font-family: monospace;
+  background-color: hsl(203, 92%, 92%);
+  padding: 2px 5px;
+  border-radius: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: hsl(203, 92%, 50%);
+}
+
+a:hover {
+  color: hsl(203, 92%, 75%);
+}
+
+.defined-color {
+  color: lightskyblue;
+  font-weight: 500;
+}
+
+.hex-color {
+  color: #87CEFA;
+  font-weight: 500;
+}
+
+.hex-transparency-color {
+  color: #87CEFAB3;
+  font-weight: 500;
+}
+
+.rgb-color {
+  color: rgb(135, 206, 250);
+  font-weight: 500;
+}
+
+.rgb-transparency-color {
+  color: rgba(135, 206, 250, 0.7);
+  font-weight: 500;
+}
+
+.hsl-color {
+  color: hsl(203, 92%, 75%);
+  font-weight: 500;
+}
+
+.hsl-transparency-color {
+  color: hsla(203, 92%, 75%, 0.7);
+  font-weight: 500;
+}
